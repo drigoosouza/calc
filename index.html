@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Tic tac toe</title>
+</head>
+<body>
+  <main>
+    <h1>TIC TAC TOE</h1>
+    <section id="SECTION_INPUT">
+      <div>
+        <label for="gamer1">Jogador 1:</label>
+        <br>
+        <input type="text" id="gamer1">
+      </div>
+      <div>
+        <label for="gamer2">Jogador 2:</label>
+        <br>
+        <input type="text" id="gamer2">
+      </div>
+      
+    </section>
+    <button class="start" >Começar</button>
+    <section id="SECTION_GAME">
+      <button class="btn-game" value="0" disabled></button>
+      <button class="btn-game" value="1" disabled></button>
+      <button class="btn-game" value="2" disabled></button>
+      <button class="btn-game" value="3" disabled></button>
+      <button class="btn-game" value="4" disabled></button>
+      <button class="btn-game" value="5" disabled></button>
+      <button class="btn-game" value="6" disabled></button>
+      <button class="btn-game" value="7" disabled></button>
+      <button class="btn-game" value="8" disabled></button>
+    </section>
+    <section id="SECTION_OUTPUT">
+      <button id="reniciar">Reniciar</button>
+    </section>
+
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
